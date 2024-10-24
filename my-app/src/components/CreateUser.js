@@ -48,7 +48,7 @@ const CreateUser = ({ onChangeForm, createUser }) => {
             </div>
             <div className="row">
               <div className="form-group col-md-12">
-                <label htmlFor="exampleInputEmail1">Position</label>
+                <label htmlFor="exampleInputPosition">Position</label>
                 <input
                   type="text"
                   onChange={(e) => onChangeForm(e)}
